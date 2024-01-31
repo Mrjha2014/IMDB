@@ -1,0 +1,63 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#searchBox {
+    margin-top: 20px;
+}
+
+.movie-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.movie-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.movie-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.movie-plot {
+    font-size: 1em;
+    color: #666;
+}
+
+.favorite-btn, .remove-favorite-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.favorite-btn:hover, .remove-favorite-btn:hover {
+    background-color: #0056b3;
+}
+
+.favorite-btn:disabled {
+    background-color: #ccc;
+}
+
+.text-center {
+    text-align: center;
+}
